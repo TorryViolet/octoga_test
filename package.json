@@ -1,0 +1,62 @@
+{
+    "name": "test-aviacentr",
+    "version": "1.0.0",
+    "description": "testing tool",
+    "main": "xz.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "cli-table2": "^0.2.0",
+        "colors": "^1.2.1",
+        "csv-parse": "^1.2.1",
+        "csv-write-stream": "^2.0.0",
+        "dateformat": "^2.0.0",
+        "deep-diff": "^0.3.4",
+        "deep-sort-object": "^1.0.1",
+        "expect": "^1.20.2",
+        "express": "^4.16.3",
+        "figlet": "^1.2.0",
+        "glob": "^7.1.0",
+        "js2xmlparser": "^1.0.0",
+        "json2csv": "^3.11.1",
+        "libxmljs": "^0.18.7",
+        "line-by-line": "^0.1.6",
+        "mocha": "^3.5.0",
+        "moment": "^2.21.0",
+        "mysql": "^2.14.1",
+        "node-dbi": "^0.7.1",
+        "nodemailer": "^4.6.3",
+        "object-merge": "^2.5.1",
+        "pg": "^7.4.1",
+        "pretty-data": "^0.40.0",
+        "querystring": "^0.2.0",
+        "randomstring": "^1.1.5",
+        "request": "^2.85.0",
+        "selenium-webdriver": "^3.5.0",
+        "sync-request": "^3.0.1",
+        "thread-sleep": "^2.0.0",
+        "traverse": "^0.6.6",
+        "urldecode": "^1.0.1",
+        "valid-url": "^1.0.9",
+        "wrap-ansi": "^2.0.0",
+        "xmldom": "^0.1.22",
+        "xpath": "0.0.23"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.10.0"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [],
+    "author": "CRPO QA Team",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.avia-centr.ru/to/apitests.git"
+    }
+}
